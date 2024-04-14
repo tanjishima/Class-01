@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h2>HTML FORMS</h2>
+    <form >
+        <!-- Box -->
+    <fieldset>
+        <legend style="color: rgb(0, 60, 255);">User Registration</legend>
+            <!-- //name -->
+            <label for="name">Your Name</label>
+            <span style="color: red;">*</span>
+            <input id="name" type="text" placeholder="Enter your Name" required/>
+            <br/><br/>
+            <!-- //email -->
+            <label for="email">Your Email</label>
+            <span style="color: red;">*</span>
+            <input id="email" type="Email" placeholder="e.g test@test.com" required/>
+            <br/><br/>
+            <!-- //phone -->
+            <label for="phone">Your Phone</label>
+            <input id="phone" type="Number" placeholder="01731357470"/>
+            <br/><br/>
+            <!-- //password -->
+            <label for="pass">Your Password</label>
+            <input id="pass" type="password" />
+            <br/><br/>
+           <!-- Dropdown -->
+           <label for="country">Choose Country</label>
+           <select id="country">
+            <option value="">--select country--</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="India">India</option>
+            <option value="Nepal">Nepal</option>
+           </select>
+           <br/><br/>
+           <!-- Radio -->
+           <label for="gender">Gender</label>
+           <br/>
+           <input type="radio" name="gender" id="male">
+           <label for="male">Male</label>
+
+           <input type="radio" name="gender" id="female">
+           <label for="female">Female</label>
+
+           <input type="radio" name="gender" id="other">
+           <label for="other">Other</label>
+
+           <br/><br/>
+           <!-- Dath of Birth -->
+           <label for="birth">Dath of Birth</label>
+           <input type=date id="birth"/>
+           <br/><br/>
+           <!-- upload-fille -->
+           <label for="upload">upload Fille</label>
+           <input type="file" accept="image/*" multiple/>
+           <br/><br/>
+           <!-- //text area -->
+           <label for="comment"> Your Message</label> <br/>
+           <textarea id="comment" cols="30" rows="5" placeholder="hi..."></textarea>
+            <br/><br/>
+            <!-- checkbox -->
+            <input type="checkbox" id="terms" required/>
+            <label for="terms">Agree to terms & conditions</label> 
+            <span style="color: red">*</span>
+            <input type="color" name="" id="">
+            <br/><br/>
+            <!-- //Submit button -->
+            <input type="Submit" value="Register"/>
+            <input type="reset"/>
+    </fieldset>
+    </form>
+</body>
+</html>
